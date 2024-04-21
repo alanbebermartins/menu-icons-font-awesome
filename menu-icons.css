@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.hero {
+    padding: 0 100px;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#f44336, #730228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#selectField > #main-icon, #secondary-icon {
+    height: 20px;
+}
+
+
+.selector {
+    width: 350px;
+}
+
+#selectField {
+    widows: 100px;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#selectField i {
+    width: 20px;
+    transition: transform 0.5s;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#list {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    overflow-y: scroll;
+    height: 150px;
+}
+
+.options {
+    max-width: 100%;
+    padding: 10px;
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.options i {
+    position: absolute;
+    top: 12px;
+    left: 25px;
+
+}
+
+.options svg {
+    height: 25px;
+    width: 25px;
+}
+
+.options:hover {
+    background: yellow;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
